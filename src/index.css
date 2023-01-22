@@ -1,0 +1,86 @@
+:root {
+    --distancia: -155px;
+}
+
+.planet {
+    width: 500px;
+    text-align: center;
+}
+
+.foto {
+    width: 500px;
+    margin-left: 40px;
+}
+
+body {
+    background: black;
+    text-align: center;
+
+}
+
+h1 {
+    color: White;
+    font-size: 45px;
+}
+
+.all {
+    display: inline-flex;
+    width: 1000px;
+    height: 500px;
+
+
+}
+
+.box {
+    background: rgba(155, 155, 155, .2);
+    color: #fff;
+    width: 250px;
+    height: 100%;
+}
+
+.titulo {
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+ul {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    list-style: none;
+    font-size: 13px;
+}
+
+
+
+.slider_prev,
+.slider_next {
+    background: black;
+    width: 60px;
+    color: rgb(153, 7, 7);
+    font-size: 60px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(80%);
+    margin-left: 37%;
+}
+
+.slider_prev {
+    left: var(--distancia);
+    margin-right: 0px;
+}
+
+.slider_next {
+    right: 450px;
+    margin-left: 0px;
+}
+
+.text {
+    color: white;
+    background: rgba(155, 155, 155, .2);
+    width: 220px;
+    margin-left: 85px;
+    text-align: justify;
+}
